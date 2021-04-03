@@ -1,0 +1,5 @@
+- hosts: sv02
+  roles:
+    - timezone
+    - apt-upgrade
+    - packages
