@@ -1,3 +1,4 @@
+[clients]
 dpkg
 emacs
 ledger
@@ -6,3 +7,11 @@ sv01
 sv02
 ws02
 ws07
+
+[main]
+ledger
+emacs
+dpkg
+
+[kvm]
+kvm01
