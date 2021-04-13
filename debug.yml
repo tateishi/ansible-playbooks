@@ -1,0 +1,9 @@
+- hosts: all
+  tasks:
+    - name: debug
+      debug:
+        msg: "{{ ansible_facts }}"
+
+    - name: interface
+      debug:
+        msg: "{{ ansible_facts.default_ipv4.interface }}"

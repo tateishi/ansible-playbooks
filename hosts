@@ -1,6 +1,7 @@
-[clients]
+[all]
 dpkg
 emacs
+kvm01
 ledger
 radio
 sv01
