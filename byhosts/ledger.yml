@@ -1,4 +1,4 @@
-- hosts: radio
+- hosts: ledger
   roles:
     - timezone
     - apt-upgrade
@@ -8,5 +8,5 @@
     - cmigemo
     - python
     - source-highlight
-    - minidlna
-    - ffmpeg
+    - docker
+    - ledger
