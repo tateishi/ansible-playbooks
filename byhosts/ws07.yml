@@ -1,0 +1,11 @@
+- hosts: ws07
+  roles:
+    - timezone
+    - apt-upgrade
+    - packages
+    - dotfiles
+    - emacs
+    - cmigemo
+    - python
+    - source-highlight
+    - docker

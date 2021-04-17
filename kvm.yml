@@ -1,0 +1,11 @@
+- hosts: kvm
+  roles:
+    - timezone
+    - apt-upgrade
+    - packages
+    - dotfiles
+    - emacs
+    - cmigemo
+    - python
+    - source-highlight
+    - kvm

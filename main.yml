@@ -1,0 +1,10 @@
+- hosts: main
+  roles:
+    - timezone
+    - apt-upgrade
+    - packages
+    - dotfiles
+    - emacs
+    - cmigemo
+    - python
+    - source-highlight
