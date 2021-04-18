@@ -1,4 +1,4 @@
-- hosts: main
+- hosts: all
   roles:
     - timezone
     - apt-upgrade
