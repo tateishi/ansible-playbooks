@@ -1,9 +1,11 @@
 [all]
+ansible-stg
 dpkg
 emacs
 kvm01
 kvm02
 ledger
+python
 radio
 sv01
 sv02
@@ -13,3 +15,6 @@ ws07
 [kvm]
 kvm01
 kvm02
+
+[ansible]
+ansible-stg
