@@ -2,6 +2,7 @@
 ansible-stg
 dpkg
 emacs
+focal
 kvm01
 kvm02
 ledger
@@ -11,6 +12,7 @@ sv01
 sv02
 ws02
 ws07
+genisoimage
 
 [kvm]
 kvm01
@@ -18,3 +20,6 @@ kvm02
 
 [ansible]
 ansible-stg
+
+[genisoimage_grp]
+genisoimage
